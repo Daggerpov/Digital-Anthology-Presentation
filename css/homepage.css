@@ -1,13 +1,122 @@
 h1 {
     text-align: center;
     color: orange;
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 p {
-    color: brown;
+    color: lightgray;
+    font-size: 32px;
+
 
 }
 
+h2, h3, h4 {
+    text-align: left;
+    font-weight: bold;
+}
+
 h3 {
-    
+    color: lightslategray;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 45px;
+    color: orange;
+}
+
+body {
+    background-color: darkred;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+img {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+li {
+    font-size: 38px;
+    color: lightsteelblue;
+}
+
+.nav_bar {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #805A46;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+
+  position: relative;
+}
+
+nav a {
+  color: lightslategray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: darkred;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.container {
+    background-color: #0B0C10;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 2.5em;
+    padding: 0 7em 2em 0;
 }
