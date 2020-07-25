@@ -5,6 +5,10 @@ h1 {
     font-weight: bolder;
 }
 
+#h1main {
+	color: #2A3132;
+}
+
 p {
     color: lightgray;
     font-size: 32px;
