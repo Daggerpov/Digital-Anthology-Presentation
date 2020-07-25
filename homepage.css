@@ -50,8 +50,12 @@ li {
     color: lightgray;
 }
 
-a {
+#a1:link, #a1:visited {
+	color: #336B87;
+}
 
+#a1:hover, #a1:active {
+	color: #90AFC5;
 }
 
 .nav_bar {
@@ -64,67 +68,66 @@ header {
 }
 
 header ul {
-  margin: 0;
-  padding: 0;
-}
+  	margin: 0;
+  	padding: 0;
+}	
 
 header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
+  	float: left;
+  	display: inline;
+  	padding: 0 20px 0 20px;
 }
 
 header::after {
-  content: '';
-  display: table;
-  clear: both;
+  	content: '';
+  	display: table;
+  	clear: both;
 }
 
 .logo {
-  float: left;
-  padding: 10px 0;
+  	float: left;
+  	padding: 10px 0;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 58px;
-  padding-top: 20px;
+  	display: inline-block;
+  	margin-left: 58px;
+  	padding-top: 20px;
 
-  position: relative;
+  	position: relative;
 }
 
 nav a {
-  color: lightgray;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 18px;
+  	color: lightgray;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	font-size: 18px;
 }
 
 nav a:hover {
-  color: #90AFC5;
-  font-weight: bold;
+  	color: #90AFC5;
+  	font-weight: bold;
 }
 
 nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #90AFC5;
-  position: absolute;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
+ 	content: '';
+ 	display: block;
+  	height: 5px;
+  	background-color: #90AFC5;
+  	position: absolute;
+  	top: 0;
+  	width: 0%;
+  	transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
-  width: 100%;
+  	width: 100%;
 }
 
 .container {
@@ -136,6 +139,6 @@ nav a:hover::before {
 }
 
 header #project h1 {
-  margin: 0;
-  padding-bottom: 10px;
+  	margin: 0;
+  	padding-bottom: 10px;
 }
