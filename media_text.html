@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthology - Daniel Agapov</title>
     <link rel="icon" href="external/books.png">
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -25,15 +25,20 @@
         </div>
     </header>
     <div>
-        <h1>Essay Analysis - Media Text</h1>
-        <audio controls>
-            <source src="external/Media_Text.mkv" type="audio/ogg">
-            Your browser does not support the audio element.
-        </audio>
-        
-        <p><a id="a1" href=https://docs.google.com/document/d/154EC8zrynvebuxQnymGmL0Z1Jsl4JkG7UuEwAUUSZew/edit?usp=sharing"
-            target="_blank">Here</a> is the essay document itself for you to read if you wish.
-        </p>
+		<h1>Essay Analysis - Media Text</h1>
+		<div align="center">
+			<audio controls>
+				<source src="external/Media_Text.mkv" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+			
+        <div class="parent">
+			<iframe src="https://docs.google.com/document/d/1x5zzuCw-QEVID-hpyi5_vgPkvhoh7u3d3k-iQC2mAa0/edit?usp=sharing">
+				<p>Your browser does not support iframes.</p>
+			</iframe>
+		</div>
+		
         <p>This is a grid showing compatibility with the .mkv file extension. If it doesn't show up 
             in your browser, this could be why: <a id="a1" href="external/grid.pdf" target="_blank">PDF file</a>
         </p>

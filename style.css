@@ -34,6 +34,24 @@ h2 {
 
 }
 
+iframe {
+	width: 80%;
+	height: 1000px;
+	margin: auto;
+	justify-content: center;
+	padding-top: 50px;
+	border: none;
+}
+
+.parent {
+	display: flex;
+}
+
+source {
+	margin: auto;
+	justify-content: center;
+}
+
 body {
     background-color: #2A3132;
     margin-left: 2.5em;
